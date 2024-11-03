@@ -6,14 +6,14 @@ const Header=()=>{
     const location = useLocation();
     const isHomePage = location.pathname === '/';
     return(
-        <div className="flex bg-gradient-to-l from-black to-blue-300 text-white items-center  w-full justify-between p-2 sm:p-6">
-            <div className="flex  sm:gap-20    ">
+        <div className="flex bg-gradient-to-l from-black to-blue-300 text-white items-center  w-full justify-between p-2 pl-0  sm:p-6">
+            <div className="flex  sm:gap-20     ">
                 <div>
                     <RouterLink to="/">
                 <p className="text-4xl font-extrabold text-blue-600 flex items-center cursor-pointer font-Heading"> <img src="/Autofundlogo.png" alt=""  className="w-36"/> </p></RouterLink>
                 </div>
             <div>
-            <li className="flex sm:gap-10 gap-3">
+            <li className="flex sm:gap-10 gap-4 w-full">
             {isHomePage ? (
                 <ScrollLink to="Home" smooth={true} duration={500} className="sm:text-xl text-sm  font-semibold cursor-pointer hover:text-blue-600">
                     الرئيسية
@@ -62,11 +62,11 @@ const Header=()=>{
             <div className='mr-5'>
 
             {isHomePage ? (
-                <ScrollLink to="About" smooth={true} duration={500} className="sm:text-xl text-sm font-semibold cursor-pointer hover:text-blue-600">
+                <ScrollLink to="About" smooth={true} duration={500} className="sm:text-xl hidden sm:block text-sm font-semibold cursor-pointer hover:text-blue-600">
                     تواصل معنا
                 </ScrollLink>
             ) : (
-                <RouterLink to="/#Who" className="sm:text-xl font-semibold cursor-pointer text-sm hover:text-blue-600">
+                <RouterLink to="/#Who" className="sm:text-xl font-semibold cursor-pointer hidden sm:block text-sm hover:text-blue-600">
                     تواصل معنا
                 </RouterLink>)}
             </div>

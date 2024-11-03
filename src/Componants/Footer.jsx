@@ -6,7 +6,7 @@ const Footer = () => {
     return (<>
     <div className="bg-gradient-to-b flex sm:flex-row  flex-wrap gap-7 justify-center sm:justify-evenly sm:p-10 p-5   w-full  from-slate-900 to-slate-700" id="About">
         <div className=" flex flex-col">
-        <img src="/Autofundlogo.png" alt=""  className="w-72 "/>
+        <img src="/Autofundlogo.png" alt=""  className="sm:w-72  w-40"/>
         </div>
         <div className=" flex flex-col">
         <p className="text-lg font-bold text-white sm:mb-10 mb-3">اتصل بنا</p>
