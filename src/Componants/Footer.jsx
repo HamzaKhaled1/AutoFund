@@ -34,7 +34,7 @@ const Footer = () => {
                     <a href="https://www.facebook.com/profile.php?id=61557527042109" className="flex gap-3 items-center" > <FaFacebook className="text-3xl"/>Autofund</a>
                 </li>
                 <li className="flex gap-3 items-center text-white hover:text-violet-500 text-md">
-                    <a href="https://www.facebook.com/profile.php?id=61557527042109" className="flex gap-3 items-center" > <FaInstagram className="text-3xl"/>_Autofund_</a>
+                    <a href="https://www.instagram.com/_autofund_" className="flex gap-3 items-center" > <FaInstagram className="text-3xl"/>_Autofund_</a>
                 </li>
             </ul>
         </div>

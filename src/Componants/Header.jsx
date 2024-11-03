@@ -15,41 +15,41 @@ const Header=()=>{
             <div>
             <li className="flex sm:gap-10 gap-4 w-full">
             {isHomePage ? (
-                <ScrollLink to="Home" smooth={true} duration={500} className="sm:text-xl text-sm  font-semibold cursor-pointer hover:text-blue-600">
+                <ScrollLink to="Home" smooth={true} duration={500} className="sm:text-xl text-sm  font-semibold cursor-pointer hover:text-sky-300">
                     الرئيسية
                 </ScrollLink>
             ) : (
-                <RouterLink to="/" className="sm:text-xl font-semibold cursor-pointer text-sm hover:text-blue-600">
+                <RouterLink to="/" className="sm:text-xl font-semibold cursor-pointer text-sm hover:text-sky-300">
                     الرئيسية
                 </RouterLink>
             )}
             
             {isHomePage ? (
-                <ScrollLink to="Services" smooth={true} duration={500} className="sm:text-xl text-sm font-semibold cursor-pointer hover:text-blue-600">
+                <ScrollLink to="Services" smooth={true} duration={500} className="sm:text-xl text-sm font-semibold cursor-pointer hover:text-sky-300">
                     الخدمات
                 </ScrollLink>
             ) : (
-                <RouterLink to="/#Services" className="sm:text-xl font-semibold text-sm cursor-pointer hover:text-blue-600">
+                <RouterLink to="/#Services" className="sm:text-xl font-semibold text-sm cursor-pointer hover:text-sky-300">
                     الخدمات
                 </RouterLink>
             )}
 
             {isHomePage ? (
-                <ScrollLink to="QA" smooth={true} duration={500} className="sm:text-xl text-sm font-semibold cursor-pointer hover:text-blue-600">
+                <ScrollLink to="QA" smooth={true} duration={500} className="sm:text-xl text-sm font-semibold cursor-pointer hover:text-sky-300">
                     الأسئلة الشائعة
                 </ScrollLink>
             ) : (
-                <RouterLink to="/#QA" className="sm:text-xl text-sm font-semibold cursor-pointer hover:text-blue-600">
+                <RouterLink to="/#QA" className="sm:text-xl text-sm font-semibold cursor-pointer hover:text-sky-300">
                     الأسئلة الشائعة
                 </RouterLink>
             )}
 
             {isHomePage ? (
-                <ScrollLink to="Who" smooth={true} duration={500} className="sm:text-xl text-sm font-semibold cursor-pointer hover:text-blue-600">
+                <ScrollLink to="Who" smooth={true} duration={500} className="sm:text-xl text-sm font-semibold cursor-pointer hover:text-sky-300">
                     ليه تختارنا
                 </ScrollLink>
             ) : (
-                <RouterLink to="/#Who" className="sm:text-xl font-semibold text-sm cursor-pointer hover:text-blue-600">
+                <RouterLink to="/#Who" className="sm:text-xl font-semibold text-sm cursor-pointer hover:text-sky-300">
                     ليه تختارنا
                 </RouterLink>
             )}
@@ -62,11 +62,11 @@ const Header=()=>{
             <div className='mr-5'>
 
             {isHomePage ? (
-                <ScrollLink to="About" smooth={true} duration={500} className="sm:text-xl hidden sm:block text-sm font-semibold cursor-pointer hover:text-blue-600">
+                <ScrollLink to="About" smooth={true} duration={500} className="sm:text-xl hidden sm:block text-sm font-semibold cursor-pointer hover:text-sky-500">
                     تواصل معنا
                 </ScrollLink>
             ) : (
-                <RouterLink to="/#Who" className="sm:text-xl font-semibold cursor-pointer hidden sm:block text-sm hover:text-blue-600">
+                <RouterLink to="/#Who" className="sm:text-xl font-semibold cursor-pointer hidden sm:block text-sm hover:text-sky-500">
                     تواصل معنا
                 </RouterLink>)}
             </div>

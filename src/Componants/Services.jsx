@@ -3,8 +3,8 @@ import Item from "./Item"
 const Services =()=>{
 
     return(<>
-    <div id="Services">
-             <p className="sm:text-6xl text-4xl font-bold text-center text-blue-600 mt-10  "> الخدمات </p>
+    <div id="Services " className="">
+             <p className="sm:text-5xl text-3xl font-bold text-center text-blue-600 mt-10  "> الخدمات </p>
         <div className="sm:p-10  p-4  w-fullsm:h-screen sm:justify-center flex sm:flex-row gap-4 sm:gap-7 overflow-y-scroll "  >
             <Item name="السيارات الملاكي " pic="/one.jpg" id="1"/>
             <Item name="السيارات النقل" pic="/two.jpg" id="2"	/>
