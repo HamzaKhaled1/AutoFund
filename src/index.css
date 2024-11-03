@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose p, .prose h1, .prose h2, .prose h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+  }
+
+  .text-shadow {
+    text-shadow: 2px 5px black;
+  }
+  .text-shadow-lg {
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  @font-face {
+    font-family: 'Custom';
+    src: url('./assets/Fonts/29lt-bukra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:'Custom';
+}
