@@ -1,7 +1,7 @@
 import Home from "./Home"
 import Services from "./Services"
 import QA from "./QA"
-import Who from "./who"
+import Who from "./Who"
 const Main =()=>{
     return(<>
     <Home/>
