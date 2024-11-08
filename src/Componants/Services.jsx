@@ -3,7 +3,7 @@ import Item from "./Item"
 const Services =()=>{
 
     return(<>
-    <div id="Services " className="">
+    <div id="Services" >
              <p className="sm:text-5xl text-3xl font-bold text-center text-blue-600 mt-10  "> الخدمات </p>
         <div className="sm:p-10  p-4  w-fullsm:h-screen sm:justify-center flex sm:flex-row gap-4 sm:gap-7 overflow-y-scroll "  >
             <Item name="السيارات الملاكي " pic="/one.jpg" id="1"/>
